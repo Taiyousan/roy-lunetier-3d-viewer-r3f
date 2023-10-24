@@ -15,36 +15,42 @@ export default function Model(props) {
         geometry={nodes.Hooks_geo.geometry}
         material={materials.standardSurface4}
       />
+      {/* Bridge */}
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Frame_geo.geometry}
         material={materials.standardSurface4}
       />
+      {/* Branches */}
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Splints_geo.geometry}
         material={materials.standardSurface4}
       />
+      {/* ? */}
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Chrome_geo.geometry}
         material={materials.standardSurface4}
       />
+      {/* ? */}
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Badge_RayBan_geo1.geometry}
         material={materials.standardSurface4}
       />
+      {/* ? */}
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Badge_RayBan_geo.geometry}
         material={materials.standardSurface4}
       />
+      {/* Glasses */}
       <mesh
         castShadow
         receiveShadow
